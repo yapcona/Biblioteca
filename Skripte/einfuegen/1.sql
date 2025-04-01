@@ -2,7 +2,7 @@ set echo on
 
 cl scr
 
-accept ISBN prompt "Geben Sie bitte ein ISBN nummer ein: "
+accept ISBN prompt "Geben Sie bitte ein ISBN Nummer ein: "
 
 accept Titel prompt "Geben Sie bitte ein Titel ein: "
 
