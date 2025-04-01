@@ -1,3 +1,17 @@
+set echo on
+
+cl scr
+
+DROP TABLE Buch;
+DROP TABLE Autor;
+DROP TABLE Verlag;
+DROP TABLE Leser;
+DROP TABLE Ausleihen;
+DROP TABLE geschrieben;
+DROP TABLE unter_vertrag; 
+DROP TABLE ausgeliehen;
+
+
 CREATE TABLE Buch (
     ISBN VARCHAR2(20) PRIMARY KEY,
     Titel VARCHAR2(100),
@@ -47,3 +61,5 @@ CREATE TABLE ausgeliehen (
     LeserID NUMBER REFERENCES Leser(LeserID),
     PRIMARY KEY (ISBN, LeserID)
 );
+
+@C:\datenbank\Biblioteca\skripte\erstellen.sql

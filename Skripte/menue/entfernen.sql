@@ -16,6 +16,6 @@ prompt 5- Neuer Verleih entfernen
 
 prompt 0- Hauptmenue (zurueck)
 
-accept datei prompt "Geben Sie bitte eine Eingabe: "
+accept datei prompt "Geben Sie bitte eine Eingabe ein: "
 
 @C:\datenbank\skripte\&datei..sql
