@@ -1,0 +1,1 @@
+@C:\datenbank\Biblioteca\skripte\manipulation.sql
