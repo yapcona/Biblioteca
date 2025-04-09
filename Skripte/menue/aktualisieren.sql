@@ -1,4 +1,4 @@
-REM @C:\datenbank\skripte\manipulation.sql
+REM @C:\datenbank\Biblioteca\skripte\menue\manipulation.sql
 
 
 prompt Menue- Aktualisieren
@@ -14,4 +14,4 @@ prompt 0- Hauptmenue (zurueck)
 
 accept datei prompt "Geben Sie bitte eine Eingabe ein: "
 
-@C:\datenbank\skripte\&datei..sql
+@C:\datenbank\Biblioteca\skripte\menue\&datei..sql

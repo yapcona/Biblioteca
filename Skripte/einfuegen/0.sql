@@ -1,2 +1,2 @@
 
-@C:\datenbank\Biblioteca\skripte\hauptmenue.sql
+@C:\datenbank\Biblioteca\skripte\menue\hauptmenue.sql

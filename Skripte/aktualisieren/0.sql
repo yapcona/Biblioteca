@@ -1,1 +1,1 @@
-@C:\datenbank\Biblioteca\skripte\manipulation.sql
+@C:\datenbank\Biblioteca\skripte\menue\manipulation.sql

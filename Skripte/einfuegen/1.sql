@@ -14,4 +14,4 @@ accept Jahr prompt "Geben Sie bitte ein Jahr ein: "
 INSERT INTO Buch (ISBN, Titel, Genre, Jahr) VALUES (&ISBN, '&Titel', '&Genre', &Jahr);
 
 
-@C:\datenbank\Biblioteca\skripte\einfuegen.sql
+@C:\datenbank\Biblioteca\skripte\menue\einfuegen.sql

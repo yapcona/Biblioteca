@@ -1,4 +1,4 @@
-REM @C:\datenbank\skripte\erstellen.sql
+REM @C:\datenbank\Biblioteca\skripte\menue\erstellen.sql
 
 
 prompt Menue- Datenbank-Struktur
@@ -10,4 +10,4 @@ prompt 0- Hauptmenue (zurueck)
 
 accept datei prompt "Geben Sie bitte eine Eingabe ein: "
 
-@C:\datenbank\skripte\&datei..sql
+@C:\datenbank\Biblioteca\skripte\menue\&datei..sql

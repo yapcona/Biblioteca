@@ -14,8 +14,8 @@ accept Adresse prompt "Geben Sie bitte eine neue Adresse ein: "
 SELECT * FROM Leser WHERE LeserID==&LeserID;
 
 UPDATE Leser SET LeserName=&LeserName, TelefonNr=&TelefonNr, Adresse=&Adresse
-    WHERE LeserID==&LeserID;
+    WHERE LeserID=&LeserID;
 
 prompt "Die Leser Spalte wurde geändert "
 
-@C:\datenbank\Biblioteca\skripte\manipulation.sql
+@C:\datenbank\Biblioteca\skripte\menue\manipulation.sql

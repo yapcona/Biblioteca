@@ -62,4 +62,4 @@ CREATE TABLE ausgeliehen (
     PRIMARY KEY (ISBN, LeserID)
 );
 
-@C:\datenbank\Biblioteca\skripte\erstellen.sql
+@C:\datenbank\Biblioteca\skripte\menue\erstellen.sql

@@ -12,4 +12,4 @@ accept RueckgabeDatum prompt "Geben Sie bitte ein Rückgabe Datum ein: "
 INSERT INTO Ausleihen (AusleihID, AusleihDatum, RueckgabeDatum) VALUES (&AusleihID, &AusleihDatum, &RueckgabeDatum);
 
 
-@C:\datenbank\Biblioteca\skripte\einfuegen.sql
+@C:\datenbank\Biblioteca\skripte\menue\einfuegen.sql
