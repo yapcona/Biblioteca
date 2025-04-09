@@ -1,20 +1,19 @@
-REM Skript: start.sql
-REM
-REM Autor: Selda Halici und Idalia Andrade
-REM Erstellungsdatum: 09.04.2025
-REM Änderung: 10.04.2025
-REM
-REM Inhalt:
-REM interaktive Anmeldung an die Datenbank,
-REM interaktive Eingabe des Projektpfades und
-REM Aufrufen des Hauptmenüs: hauptmenue.sql
-REM 
+/*
+Skript: start.sql
+Autor: Selda Halici und Idalia Andrade
+Erstellungsdatum: 09.04.2025
+Änderung: 10.04.2025
+Inhalt:
+interaktive Anmeldung an die Datenbank,
+interaktive Eingabe des Projektpfades und
+Aufrufen des Hauptmenüs: hauptmenue.sql
+*/
 
 SET ECHO OFF
 CL SCR
 
 
-REM Anmelden
+-- Anmelden
 
 ACCEPT benutzername PROMPT "Eingabe des Benutzernamens (Default: HR1): " DEFAULT HR1
 
@@ -25,7 +24,7 @@ ACCEPT datenbank PROMPT "Eingabe der Datenbank (Default: localhost/XEPDB1): " DE
 CONNECT &benutzername/&passwort@&datenbank
 
 
-REM Eingabe des Projektpfades
+-- Eingabe des Projektpfades
 
 ACCEPT pfad PROMPT "Eingabe des Projektpfades (Default: C:\datenbank\Biblioteca\skripte): " DEFAULT C:\datenbank\Biblioteca\skripte
 
@@ -33,6 +32,6 @@ accept prompt "Druecken Sie Enter"
 
 CL SCR
 
-REM Menü aufrufen
+-- Menü aufrufen
 
 @&pfad\menue\hauptmenue.sql
