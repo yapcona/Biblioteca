@@ -20,9 +20,9 @@ ACCEPT benutzername PROMPT "Eingabe des Benutzernamens (Default: HR1): " DEFAULT
 
 ACCEPT passwort PROMPT "Eingabe des Passwortes (Default: oracle_4U): " DEFAULT oracle_4U HIDE
 
-ACCEPT datenbank PROMPT "Eingabe der Datenbank (Default: XEPDB1): " DEFAULT XEPDB1
+ACCEPT datenbank PROMPT "Eingabe der Datenbank (Default: localhost/XEPDB1): " DEFAULT localhost/XEPDB1
 
-CONNECT &benutzername/&passwort@datenbank
+CONNECT &benutzername/&passwort@&datenbank
 
 
 REM Eingabe des Projektpfades
