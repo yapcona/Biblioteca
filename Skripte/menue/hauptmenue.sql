@@ -1,5 +1,3 @@
-REM @C:\datenbank\Biblioteca\skripte\menue\hauptmenue.sql
-
 prompt Menue- Hauptmenue
 prompt ===================
 
@@ -17,4 +15,4 @@ prompt 0- Programm beenden
 accept datei prompt "Geben Sie bitte eine Eingabe ein: "
 
 
-@C:\datenbank\Biblioteca\skripte\menue\&datei..sql
+@C:\datenbank\biblioteca\skripte\menue\&datei..sql

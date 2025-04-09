@@ -1,5 +1,3 @@
-REM @C:\datenbank\Biblioteca\skripte\menue\lesen.sql
-
 @C:\datenbank\Biblioteca\skripte\menue\lesen.sql
 
 
