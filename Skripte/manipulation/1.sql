@@ -1,1 +1,1 @@
-REM @C:\datenbank\Biblioteca\skripte\menue\einfuegen.sql
+@C:\datenbank\Biblioteca\skripte\menue\einfuegen.sql

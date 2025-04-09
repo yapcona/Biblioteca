@@ -1,1 +1,1 @@
-REM @C:\datenbank\Biblioteca\skripte\menue\entfernen.sql
+@C:\datenbank\Biblioteca\skripte\menue\entfernen.sql
