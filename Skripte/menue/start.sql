@@ -30,6 +30,8 @@ REM Eingabe des Projektpfades
 ACCEPT pfad PROMPT "Eingabe des Projektpfades (Default: C:\datenbank\Biblioteca\skripte\menue): " DEFAULT C:\datenbank\Biblioteca\skripte\menue
 
 
+CL SCR
+
 REM Menü aufrufen
 
 @&pfad.\hauptmenue.sql
