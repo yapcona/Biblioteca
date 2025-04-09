@@ -22,7 +22,7 @@ ACCEPT passwort PROMPT "Eingabe des Passwortes (Default: oracle_4U): " DEFAULT o
 
 ACCEPT datenbank PROMPT "Eingabe der Datenbank (Default: XEPDB1): " DEFAULT XEPDB1
 
-CONNECT &benutzername/&passwort@&datenbank
+CONNECT &benutzername/&passwort@datenbank
 
 
 REM Eingabe des Projektpfades
@@ -34,4 +34,7 @@ CL SCR
 
 REM Menü aufrufen
 
-@&pfad.\hauptmenue.sql
+
+accept datei prompt "Druecken Sie Enter"
+
+@.\menue\hauptmenue.sql
