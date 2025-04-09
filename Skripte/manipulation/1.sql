@@ -1,3 +1,3 @@
 cl scr
 
-@&pfad\menue\manipulation\einfügen.sql
+@&pfad\skripte\einfügen.sql
