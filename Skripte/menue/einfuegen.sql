@@ -1,5 +1,3 @@
-REM @C:\datenbank\Biblioteca\skripte\menue\manipulation.sql
-
 @C:\datenbank\Biblioteca\skripte\menue\manipulation.sql
 
 prompt Menue- Einfuegen
@@ -19,4 +17,8 @@ prompt 0- Hauptmenue (zurueck)
 
 accept datei prompt "Geben Sie bitte eine Eingabe ein: "
 
+<<<<<<< HEAD
 @&pfad\manipulation\&datei..sql
+=======
+@C:\datenbank\Biblioteca\skripte\einfuegen\&datei..sql
+>>>>>>> c7961ed5055d90ec5d2e35f6b263e197059e7ba1
