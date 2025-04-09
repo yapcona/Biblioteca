@@ -18,14 +18,5 @@ prompt 0- Programm beenden
 
 ACCEPT auswahl NUMBER PROMPT "Bitte Zahl eingeben: "
 
-IF &auswahl = 1 THEN
-    @.\skripte\menue\einfuegen.sql
-ELSE IF auswahl = 2 THEN
-    @.\skripte\menue\entfernen.sql
-ELSE auswahl = 3 THEN
-    @.\skripte\menue\erstellen.sql
-END IF;
-
-
 
 @C:\datenbank\Biblioteca\skripte\menue\&datei..sql
