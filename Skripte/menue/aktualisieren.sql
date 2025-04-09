@@ -1,5 +1,7 @@
 REM @C:\datenbank\Biblioteca\skripte\menue\manipulation.sql
 
+@C:\datenbank\Biblioteca\skripte\menue\manipulation.sql
+
 
 prompt Menue- Aktualisieren
 prompt ===================

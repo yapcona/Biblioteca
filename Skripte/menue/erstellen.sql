@@ -1,5 +1,6 @@
 REM @C:\datenbank\Biblioteca\skripte\menue\erstellen.sql
 
+@C:\datenbank\Biblioteca\skripte\menue\erstellen.sql
 
 prompt Menue- Datenbank-Struktur
 prompt =========================

@@ -15,4 +15,7 @@ prompt 5- Aktualisieren
 
 prompt 0- Programm beenden
 
+
+accept datei prompt "Geben Sie bitte eine Eingabe ein: "
+
 @C:\datenbank\Biblioteca\skripte\menue\&datei..sql
