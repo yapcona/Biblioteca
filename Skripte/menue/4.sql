@@ -2,4 +2,4 @@
 
 cl scr
 
-@C:\datenbank\Biblioteca\skripte\menue\lesen.sql
+@&pfad\menue\lesen.sql

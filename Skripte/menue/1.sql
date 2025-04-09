@@ -2,4 +2,4 @@
 
 cl scr
 
-@C:\datenbank\Biblioteca\skripte\menue\manipulation.sql
+@&pfad\menue\manipulation.sql

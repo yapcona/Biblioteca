@@ -27,7 +27,7 @@ CONNECT &benutzername/&passwort@&datenbank
 
 REM Eingabe des Projektpfades
 
-ACCEPT pfad PROMPT "Eingabe des Projektpfades (Default: C:\datenbank\Biblioteca\skripte\menue): " DEFAULT C:\datenbank\Biblioteca\skripte\menue
+ACCEPT pfad PROMPT "Eingabe des Projektpfades (Default: C:\datenbank\Biblioteca\skripte): " DEFAULT C:\datenbank\Biblioteca\skripte
 
 accept prompt "Druecken Sie Enter"
 
@@ -35,4 +35,4 @@ CL SCR
 
 REM Menü aufrufen
 
-@.\menue\hauptmenue.sql
+@&pfad\menue\hauptmenue.sql

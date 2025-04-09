@@ -19,4 +19,4 @@ prompt 0- Hauptmenue (zurueck)
 
 accept datei prompt "Geben Sie bitte eine Eingabe ein: "
 
-@C:\datenbank\Biblioteca\skripte\menue\&datei..sql
+@&pfad\manipulation\&datei..sql

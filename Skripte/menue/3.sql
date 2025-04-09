@@ -2,4 +2,4 @@
 
 cl scr
 
-@C:\datenbank\Biblioteca\skripte\menue\erstellen.sql
+@&pfad\menue\erstellen.sql
