@@ -1,5 +1,3 @@
-@C:\datenbank\Biblioteca\skripte\menue\manipulation.sql
-
 prompt Menue- Manipulation
 prompt ===================
 
