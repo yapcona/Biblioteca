@@ -1,4 +1,4 @@
-REM lesen.sql
+
 
 cl scr
 

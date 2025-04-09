@@ -1,4 +1,4 @@
-REM entfernen.sql
+
 
 cl scr
 

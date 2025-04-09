@@ -11,12 +11,10 @@ prompt 3- Erstellen
 
 prompt 4- Lesen
 
-prompt 5- Aktualisieren 
-
 prompt 0- Programm beenden
 
 
-ACCEPT auswahl NUMBER PROMPT "Bitte Zahl eingeben: "
+accept datei prompt "Geben Sie bitte eine Eingabe ein: "
 
 
 @C:\datenbank\Biblioteca\skripte\menue\&datei..sql

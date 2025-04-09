@@ -1,4 +1,4 @@
-REM einfuegen.sql
+
 
 cl scr
 

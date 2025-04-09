@@ -1,4 +1,4 @@
-REM erstellen.sql
+
 
 cl scr
 
