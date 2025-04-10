@@ -11,11 +11,13 @@ accept TelefonNr prompt "Geben Sie bitte ein neue TelefonNr. ein: "
 accept Adresse prompt "Geben Sie bitte eine neue Adresse ein: "
 
 
-SELECT * FROM Leser WHERE LeserID==&LeserID;
+SELECT * FROM Leser WHERE LeserID=&LeserID;
 
 UPDATE Leser SET LeserName=&LeserName, TelefonNr=&TelefonNr, Adresse=&Adresse
     WHERE LeserID=&LeserID;
 
-prompt "Die Leser Spalte wurde geändert "
+prompt "Die Leser Spalte wurde geaendert "
 
-@C:\datenbank\Biblioteca\skripte\menue\manipulation.sql
+pause "ENTER" Click
+
+@&pfad.\menue\aktualisieren.sql

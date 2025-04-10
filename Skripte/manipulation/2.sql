@@ -1,3 +1,3 @@
 cl scr
 
-@&pfad\menue\entfernen.sql
+@&pfad.\menue\entfernen.sql

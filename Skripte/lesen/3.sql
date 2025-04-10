@@ -5,4 +5,6 @@ cl scr
 SELECT *
 FROM Verlag;
 
-@C:\datenbank\Biblioteca\skripte\menue\lesen.sql
+pause "ENTER" Click
+
+@&pfad.\menue\lesen.sql

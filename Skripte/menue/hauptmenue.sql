@@ -15,4 +15,4 @@ prompt 0- Programm beenden
 accept datei prompt "Geben Sie bitte eine Eingabe ein: "
 
 
-@&pfad\menue\&datei..sql
+@&pfad.\menue\&datei..sql

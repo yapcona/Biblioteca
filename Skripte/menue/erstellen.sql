@@ -1,4 +1,8 @@
-@C:\datenbank\Biblioteca\skripte\menue\erstellen.sql
+cl scr
+
+REM @&pfad.\menue\&datei..sql
+
+REM cl scr
 
 prompt Menue- Datenbank-Struktur
 prompt =========================
@@ -9,4 +13,4 @@ prompt 0- Hauptmenue (zurueck)
 
 accept datei prompt "Geben Sie bitte eine Eingabe ein: "
 
-@C:\datenbank\Biblioteca\skripte\menue\&datei..sql
+@&pfad.\erstellen\&datei..sql

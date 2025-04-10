@@ -1,3 +1,3 @@
 cl scr
 
-@&pfad\menue\manipulation.sql
+@&pfad.\menue\manipulation.sql

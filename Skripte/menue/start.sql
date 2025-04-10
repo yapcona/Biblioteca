@@ -26,12 +26,12 @@ CONNECT &benutzername/&passwort@&datenbank
 
 -- Eingabe des Projektpfades
 
-ACCEPT pfad PROMPT "Eingabe des Projektpfades (Default: C:\datenbank\Biblioteca\skripte): " DEFAULT C:\datenbank\Biblioteca\skripte
+ACCEPT pfad PROMPT "Eingabe des Projektpfades (Default: C:\datenbank\Biblioteca\Skripte): " DEFAULT C:\datenbank\Biblioteca\Skripte
 
-accept prompt "Druecken Sie Enter"
+prompt "Druecken Sie Enter"
 
 CL SCR
 
 -- Menü aufrufen
 
-@&pfad\menue\hauptmenue.sql
+@&pfad.\menue\hauptmenue.sql

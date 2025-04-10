@@ -8,6 +8,8 @@ SELECT * FROM Leser WHERE LeserID=&LeserID;
 
 DELETE FROM Leser WHERE LeserID=&LeserID;
 
-prompt "Die Leser ID Nummer wurde gelöscht "
+prompt "Die Leser ID Nummer wurde geloescht "
 
-@C:\datenbank\Biblioteca\skripte\menue\entfernen.sql
+pause "ENTER" Click
+
+@&pfad.\menue\entfernen.sql

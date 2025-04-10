@@ -8,6 +8,8 @@ SELECT * FROM Ausleihen WHERE AusleihID=&AusleihID;
 
 DELETE FROM Ausleihen WHERE AusleihID=&AusleihID;
 
-prompt "Die Ausleih ID Nummer wurde gelöscht "
+prompt "Die Ausleih ID Nummer wurde geloescht "
 
-@C:\datenbank\Biblioteca\skripte\menue\entfernen.sql
+pause "ENTER" Click
+
+@&pfad.\menue\entfernen.sql

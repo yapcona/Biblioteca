@@ -8,6 +8,8 @@ SELECT * FROM Verlag WHERE VerlagID=&VerlagID;
 
 DELETE FROM Verlag WHERE VerlagID=&VerlagID;
 
-prompt "Die Verlag ID Nummer wurde gelöscht "
+prompt "Die Verlag ID Nummer wurde geloescht "
 
-@C:\datenbank\Biblioteca\skripte\menue\entfernen.sql
+pause "ENTER" Click
+
+@&pfad.\menue\entfernen.sql

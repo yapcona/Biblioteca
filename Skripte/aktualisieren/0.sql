@@ -1,1 +1,3 @@
-@C:\datenbank\Biblioteca\skripte\menue\manipulation.sql
+cl scr
+
+@&pfad\menue\hauptmenue.sql

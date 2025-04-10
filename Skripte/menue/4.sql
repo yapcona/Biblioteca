@@ -1,3 +1,3 @@
 cl scr
 
-@&pfad\menue\lesen.sql
+@&pfad.\menue\lesen.sql

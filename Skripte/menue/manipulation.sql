@@ -1,3 +1,6 @@
+REM cl scr
+
+
 prompt Menue- Manipulation
 prompt ===================
 
@@ -11,4 +14,6 @@ prompt 0- Hauptmenue (zurueck)
 
 accept datei prompt "Geben Sie bitte eine Eingabe: "
 
-@C:\datenbank\Biblioteca\skripte\manipulation\&datei..sql
+@&pfad.\manipulation\&datei..sql
+
+

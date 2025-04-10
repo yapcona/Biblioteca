@@ -8,6 +8,8 @@ SELECT * FROM Autor WHERE AutorID=&AutorID;
 
 DELETE FROM Autor WHERE AutorID=&AutorID;
 
-prompt "Die Autor ID Nummer wurde gelöscht "
+prompt "Die Autor ID Nummer wurde geloescht "
 
-@C:\datenbank\Biblioteca\skripte\menue\entfernen.sql
+pause "ENTER" Click
+
+@&pfad.\menue\entfernen.sql

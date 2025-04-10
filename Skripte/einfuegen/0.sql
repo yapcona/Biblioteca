@@ -1,3 +1,3 @@
 cl scr
 
-@&pfad\menue\hauptmenue.sql
+@&pfad.\menue\hauptmenue.sql

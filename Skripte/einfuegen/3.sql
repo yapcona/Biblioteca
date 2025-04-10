@@ -9,5 +9,8 @@ accept VerlagName prompt "Geben Sie bitte ein Verlag Name ein: "
 
 INSERT INTO Verlag (VerlagID, VerlagName) VALUES (&VerlagID, '&VerlagName');
 
+prompt "Der Verlag wuerde gespeichert "
 
-@C:\datenbank\Biblioteca\skripte\menue\einfuegen.sql
+pause "ENTER" Click
+
+@&pfad.\menue\einfuegen.sql

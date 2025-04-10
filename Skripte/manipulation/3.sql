@@ -1,3 +1,3 @@
 cl scr
 
-@&pfad\menue\aktualisieren.sql
+@&pfad.\menue\aktualisieren.sql

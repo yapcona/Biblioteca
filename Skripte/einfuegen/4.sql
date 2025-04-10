@@ -13,5 +13,8 @@ accept Adresse prompt "Geben Sie bitte eine Adresse ein: "
 
 INSERT INTO Leser (LeserID, LeserName, TelefonNr, Adresse ) VALUES (&LeserID, '&LeserName', '&TelefonNr', '&Adresse');
 
+prompt "Der Leser wuerde gespeichert "
 
-@C:\datenbank\Biblioteca\skripte\menue\einfuegen.sql
+pause "ENTER" Click
+
+@&pfad.\menue\einfuegen.sql

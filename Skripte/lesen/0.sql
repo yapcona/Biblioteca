@@ -1,2 +1,3 @@
+CL SCR
 
-@C:\datenbank\Biblioteca\skripte\menue\hauptmenue.sql
+@&pfad.\menue\hauptmenue.sql

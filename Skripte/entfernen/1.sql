@@ -8,6 +8,8 @@ SELECT * FROM Buch WHERE ISBN=&ISBN;
 
 DELETE FROM Buch WHERE ISBN=&ISBN;
 
-prompt "Die ISBN Nummer wurde gelöscht "
+prompt "Die ISBN Nummer wurde geloescht "
 
-@C:\datenbank\Biblioteca\skripte\menue\entfernen.sql
+pause "ENTER" Click
+
+@&pfad.\menue\entfernen.sql

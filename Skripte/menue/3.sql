@@ -1,3 +1,3 @@
 cl scr
 
-@&pfad\menue\erstellen.sql
+@&pfad.\menue\erstellen.sql

@@ -1,2 +1,0 @@
-
-@&pfad\menue\hauptmenue.sql

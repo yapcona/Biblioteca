@@ -1,5 +1,8 @@
-@C:\datenbank\Biblioteca\skripte\menue\lesen.sql
+cl scr
 
+REM @&pfad.\menue\&datei..sql
+
+REM cl scr
 
 prompt Menue- Daten lesen
 prompt ===================
@@ -18,5 +21,5 @@ prompt 0- Hauptmenue (zurueck)
 
 accept datei prompt "Geben Sie bitte eine Eingabe ein: "
 
-@C:\datenbank\Biblioteca\skripte\menue\&datei..sql
+@&pfad.\lesen\&datei..sql
 

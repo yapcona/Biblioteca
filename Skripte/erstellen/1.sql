@@ -62,4 +62,10 @@ CREATE TABLE ausgeliehen (
     PRIMARY KEY (ISBN, LeserID)
 );
 
-@C:\datenbank\Biblioteca\skripte\menue\erstellen.sql
+
+prompt "Die Tabellen wuerden herstellen "
+
+pause "ENTER" Click
+
+@&pfad.\menue\erstellen.sql
+
