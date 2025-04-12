@@ -2,6 +2,7 @@
 
 This project is an efficient database solution for managing a library. Built using Oracle SQL Plus, it allows library administrators to perform CRUD (Create, Read, Update, Delete) operations on books, authors, genres, and publishers. The database is optimized for efficient data storage and retrieval, ensuring smooth operations for library management.
 
+(Project language is german, but english translation will follow pretty soon)
 ## Features
 
 - **Add New Entries**: Insert new books, authors, genres, and publishers into the database.
